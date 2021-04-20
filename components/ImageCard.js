@@ -19,7 +19,11 @@ export default function ImageCard({
   return (
     <SimpleGrid columns={[1, 1, 2]} spacing={0}>
       <Box position="relative">
-        <Image width="100%" minHeight="100%" src={imagePath} />
+        <Image
+          width="100%"
+          minHeight={["auto", "auto", "100%"]}
+          src={imagePath}
+        />
         <TitleFlag
           flagColor={isInternational ? "yellow.400" : "blue.400"}
           children={isInternational ? "International" : "Domestic"}
