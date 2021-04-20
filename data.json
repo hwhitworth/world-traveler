@@ -1,0 +1,28 @@
+{
+  "locations": [
+    {
+      "destination": "London, England",
+      "travelDate": "April 15, 2020",
+      "travelDescription": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
+      "imagePath": "london-img.jpg",
+      "openSeats": 5,
+      "isInternational": true
+    },
+    {
+      "destination": "Atlanta, GA",
+      "travelDate": "March 10, 2019",
+      "travelDescription": "Duis aute? irure dolor in reprehenderit in voluptate.",
+      "imagePath": "atlanta-img.png",
+      "openSeats": 5,
+      "isInternational": false
+    },
+    {
+      "destination": "Singapore",
+      "travelDate": "February 15, 2020",
+      "travelDescription": "Duis aute? irure dolor in reprehenderit in voluptate.",
+      "imagePath": "singapore-img.jpg",
+      "openSeats": 3,
+      "isInternational": true
+    }
+  ]
+}
